@@ -9,7 +9,7 @@ psycopg2
 brotlipy
 django-log-request-id
 dj-database-url
-gunicorn==19.7.1
+gunicorn==20.0.4
 whitenoise
 psutil
 ipython

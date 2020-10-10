@@ -17,12 +17,8 @@ for page,src in VIEW_TO_JS_SRC_MAP.items():
 def index(request):
     # return HttpResponse('Hello from Python!')
     #return render(request, "index.html")
-	
-	srcPath = VIEW_TO_JS_SRC_MAP["index"]
+    srcPath = VIEW_TO_JS_SRC_MAP["index"]
     return render(request, 'website/page.html',{"title":"Index", "srcPath":srcPath})
-
-
-
 
 # Login Page
 def login(request):
